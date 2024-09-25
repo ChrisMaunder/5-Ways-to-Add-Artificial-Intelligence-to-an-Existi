@@ -36,7 +36,7 @@ If you wish to include AI processing directly in your code base, then you can’
 
 Here’s how to use the latest YOLO5 model in Python:
 
-```cpp
+```python
 import torch                                             # import the Torch library
 
 model = torch.hub.load(‘ultralytics/yolov5’, ‘yolov5s’)  # Load the YOLO model
